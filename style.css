@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section-padding{
+    padding: 40px 80px;
+}
+
+/******************Header Section**************/
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+#header img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #000;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+
+#header .banner{
+    width: 90%;
+    height: auto;
+}
+
+#header .banner marquee{
+    font-size: 30px;
+}
+
+
+/******************Hero Section**************/
+
+#hero{
+    background-image: url(img/bg-1.jpg);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#hero h1{
+    color: #fff;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+#hero h1 span{
+    color: #B31B1B;
+    font-weight: 700;
+}
+
+#hero h4{
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/******************Feature Section**************/
+
+.horizontal-bar{
+    color: #fff;
+    margin: 100px 0;
+}
+
+
+#feature{
+    padding: 100px 100px 0 100px;
+}
+
+#feature .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#feature .content-img{
+    width: 40%;
+    object-fit: cover;
+    padding: 0 30px;
+}
+
+#feature img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 50px 30px;
+}
+
+#feature .content-text{
+    width: 50%;
+}
+
+#feature .content-text span{
+    color: #B31B1B;
+    font-weight: 700;
+}
+
+#feature .content-text p{
+    color: #fff;
+    font-size: 35px;
+    text-align: left;
+}
+
+/******************Banner Section**************/
+
+#banner{
+    background-color: #fff;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+#banner h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #B31B1B;
+}
+
+#banner h2{
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#banner h1{
+    color: #fff;
+    background-color: #000;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
+
+/******************About Section**************/
+
+
+
+#about{
+    margin-top: 100px;
+} 
+
+#about h1{
+    color: #B31B1B;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#about .introduction{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+}
+
+.intro-content{
+    width: 50%;
+}
+
+.intro-content p{
+    color: #fff;
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #555;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.intro-img{
+    width: 30%;
+    padding: 10px;
+}
+
+.intro-img img{
+    width: 100%;
+}
+
+
+
+
+/******************video Section**************/
+
+#reviews{
+    background-color: #000;
+}
+
+#reviews h2{
+    text-align: center;
+    color: #fff;
+
+}
+
+#reviews h3{
+    text-align: center;
+    color: #B31B1B;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.testimonial-1{
+    width: 40%;
+    background-color: #555;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.testimonial-1:hover{
+    transform: translateY(-5px);
+}
+
+.testimonial-1 h4{
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.testimonial-1 p{
+    color: #fff;
+}
+
+.testimonial-1 p a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+.testimonial-2{
+    width: 40%;
+    background-color: #555;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.testimonial-2:hover{
+    transform: translateY(-5px);
+}
+
+.testimonial-2 h4{
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.testimonial-2 p{
+    color: #fff;
+}
+
+.testimonial-2 p a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+/******************Form Section**************/
+
+#form-details {
+    padding: 40px 80px;
+    margin-top: 100px;
+}
+
+
+#form-details form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-details form span{
+    text-align: center;
+    font-size: 20px;
+    color: #B31B1B;
+    margin-bottom: 10px;
+}
+
+#form-details form h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top:10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    color: #fff;
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #555;
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    display: none;
+}
+
+#form-details form a{
+    color: #fff;
+    background-color: #B31B1B;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+#form-details form a:hover{
+    background-color: red;
+}
+
+
+/******************Footer Section**************/
+
+#footer{
+    margin-top: 150px;
+    background-color: #fff;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer h3{
+    font-size: 25px;
+}
+
+#footer .links a{
+    padding-right: 20px;
+}
+
+#footer .links a i{
+    font-size: 30px;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+
+#footer .links a i:hover{
+    color: #B31B1B;
+}
+
+
+
+
+
+
+/* **********************ipad responsiveness******************* */
+
+@media only screen and (max-width:799px){
+    #header {
+        padding: 30px 30px;
+    }
+
+    #header .banner marquee {
+        margin-left: 10px;
+    }
+
+
+    #hero {
+        margin-bottom: 50px;
+    }
+
+    #hero h1 {
+        text-align: center;
+    }
+
+    #feature {
+        padding: 50px 50px 0 50px;
+    }
+
+    #feature img {
+        padding: 0;
+    }
+
+    #feature .content-img {
+        width: 50%;
+    }
+
+    #feature .content-text p {
+        color: #fff;
+        font-size: 28px;
+        text-align: start;
+        padding: 0 30px;
+    }
+
+    #banner h2 {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    #banner h1 {
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+    #about .introduction {
+        flex-direction: column-reverse;
+        margin-top: 58px;
+    }
+
+    .intro-img {
+        width: 50%;
+    }
+
+    .intro-content {
+        width: 90%;
+    }
+
+    .intro-content p {
+        margin: 30px 0;
+        padding:15px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #reviews h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #reviews h3 {
+        padding: 0 10px;
+    }
+
+    .testimonial {
+        flex-direction: column;
+    }
+
+    .testimonial-1 {
+        width: 90%;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .testimonial-2{
+        width: 90%;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .testimonial-1 p a ,
+    .testimonial-2 p a{
+        font-size: 25px;
+    }
+
+    .testimonial-2 p,
+    .testimonial-2 p {
+        font-size: 20px;
+    }
+
+    #form-details form span {
+        font-size: 25px;
+    }
+}
+
+/*******************************Mobile Responsiveness****************************/
+
+@media only screen and (max-width:530px){
+
+
+    #hero h1 {
+        text-align: center;
+        font-size: 37px;
+        padding: 0 10px; 
+    }
+
+    #hero h4 {
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+    }
+
+    #feature .content {
+        flex-direction: column !important;
+    }
+
+    #feature .content-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #feature .content-img {
+        padding: 0;
+    }
+
+    #feature .content-text {
+        width: 100%;
+    }
+
+    #feature .content-text p {
+        padding: 0;
+    }
+
+    #banner {
+        height: 70vh;
+    }
+
+    #banner h3 {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #banner h2 {
+        font-size: 40px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    #banner h1 {
+        font-size: 40px;
+        text-transform: uppercase;
+        padding: 5px 7px;
+    }
+
+    .intro-img {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .testimonial-1 ,
+    .testimonial-2{
+        text-align: left;
+        padding: 10px;
+    }
+
+
+    #form-details {
+        padding: 20px;
+    }
+
+
+    #form-details form span {
+        font-size: 25px;
+    }
+
+    #form-details form h2 {
+        line-height: 45px;
+    }
+
+    #footer {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    #footer h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+    #footer .links {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #footer .links a{
+        padding-right: 10px;
+    }
+
+    #footer .links a i{
+        font-size: 25px;
+    }
+}
