@@ -341,7 +341,6 @@ a{
     padding: 12px 15px;
     font-size: 15px;
     font-weight: 500;
-    display: none;
 }
 
 #form-details form a{
@@ -361,6 +360,22 @@ a{
 #form-details form a:hover{
     background-color: red;
 }
+
+
+#form-details button {
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #B31B1B;
+    color: black;
+    transition: 1s;
+}
+
+#form-details button:hover{
+    cursor: pointer;
+    background-color: #b82a2a;
+}
+
 
 
 /******************Footer Section**************/
