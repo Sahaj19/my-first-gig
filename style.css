@@ -301,87 +301,29 @@ a{
 
 
 
-/******************Form Section**************/
+/******************Telegram Section**************/
 
-#form-details {
-    padding: 40px 80px;
+#telegram {
+    text-align: center;
     margin-top: 100px;
 }
 
-
-#form-details form{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-#form-details form span{
-    text-align: center;
-    font-size: 20px;
-    color: #B31B1B;
-    margin-bottom: 10px;
-}
-
-#form-details form h2{
-    text-align: center;
-    font-size: 35px;
-    padding-top:10px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-    line-height: 30px;
-    color: #fff;
-}
-
-#form-details form input,
-#form-details form textarea{
-    width: 100%;
-    outline: none;
-    border: 1px solid #555;
-    margin-bottom: 20px;
-    padding: 12px 15px;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-#form-details form a{
-    color: #fff;
-    background-color: #B31B1B;
-    font-size: 25px;
-    font-weight: 600;
-    padding: 15px 30px;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s ease;
-    text-align: center;
-}
-
-#form-details form a:hover{
-    background-color: red;
-}
-
-
-#form-details button {
-    padding: 15px 30px;
+#telegram a {
+    font-size: 40px;
+    color: white;
     font-weight: bold;
-    font-size: 25px;
     background-color: #B31B1B;
-    color: black;
-    transition: 1s;
+    padding: 15px 30px;
 }
 
-#form-details button:hover{
-    cursor: pointer;
-    background-color: #b82a2a;
-}
+
 
 
 
 /******************Footer Section**************/
 
 #footer{
-    margin-top: 150px;
+    margin-top: 100px;
     background-color: #fff;
     height: 20vh;
     display: flex;
@@ -518,9 +460,6 @@ a{
         font-size: 20px;
     }
 
-    #form-details form span {
-        font-size: 25px;
-    }
 }
 
 /*******************************Mobile Responsiveness****************************/
@@ -593,20 +532,14 @@ a{
         padding: 10px;
     }
 
-
-    #form-details {
-        padding: 20px;
+    #telegram a {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        background-color: #B31B1B;
+        padding: 10px 20px;
     }
-
-
-    #form-details form span {
-        font-size: 25px;
-    }
-
-    #form-details form h2 {
-        line-height: 45px;
-    }
-
+    
     #footer {
         justify-content: space-between;
         align-items: center;
