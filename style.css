@@ -67,12 +67,12 @@ a{
 /******************Hero Section**************/
 
 #hero{
-    background-image: url(img/bg-1.jpg);
-    height: 80vh;
+    /* background-image: url(img/bg-1.jpg); */
+    height: 70vh;
     width: 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,23 +92,32 @@ a{
 }
 
 #hero h4{
+    background-color: #000;
+    padding: 10px;
+    border-radius: 4px;
     color: #fff;
     font-size: 35px;
     text-align: center;
 }
 
+#hero h4 span{
+    color: #B31B1B;
+    font-weight: 700;
+}
+
 
 #telegram a {
-    font-size: 45px;
+    font-size: 50px;
     color: #fff;
     font-weight: bold;
-    background-color: black;
+    background-color: #000;
     padding: 15px 30px;
+    box-shadow: 1px 1px 5px #fff;
 }
 
 #telegram a:hover{
     color: black;
-    background-color: #B31B1B;
+    background-color: #fff;
     border: 5px solid black;
 }
 
