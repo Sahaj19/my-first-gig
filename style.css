@@ -23,7 +23,7 @@ a{
 
 
 /*****************banner-top section**********/
-.banner-top {
+/* .banner-top {
     height: 50px;
     background-color: #B31B1B;
     padding-top: 10px;
@@ -32,7 +32,7 @@ a{
 .banner-top .banner-heading {
     text-align: center;
     font-size: 20px;
-}
+} */
 
 
 
@@ -68,7 +68,7 @@ a{
 
 #hero{
     /* background-image: url(img/bg-1.jpg); */
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     /* background-repeat: no-repeat;
     background-size: cover;
@@ -84,6 +84,7 @@ a{
     color: #fff;
     font-size: 45px;
     text-align: center;
+    padding: 10px;
 }
 
 #hero h1 span{
@@ -275,15 +276,18 @@ a{
 
 .testimonial {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .testimonial-1{
-    width: 40%;
+    width: 90%;
     background-color: #555;
     padding: 10px 15px;
     border-radius: 10px;
+    margin-bottom: 15px;
     cursor: pointer;
     transition: transform 0.4s ease;
 }
@@ -311,9 +315,9 @@ a{
 
 
 .testimonial-2{
-    width: 40%;
+    width: 90%;
     background-color: #555;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.4s ease;
@@ -364,14 +368,15 @@ a{
 #footer{
     margin-top: 170px;
     background-color: #fff;
-    height: 20vh;
+    height: 30vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #footer h3{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #footer .links a{
@@ -379,7 +384,7 @@ a{
 }
 
 #footer .links a i{
-    font-size: 30px;
+    font-size: 40px;
     color: #000;
     transition: 0.3s ease;
 }
@@ -418,6 +423,7 @@ a{
 
     #hero {
         margin-bottom: 50px;
+        height: 90vh;
     }
 
     #feature {
@@ -437,6 +443,10 @@ a{
         font-size: 28px;
         text-align: start;
         padding: 0 30px;
+    }
+
+    #banner {
+        height: 70vh;
     }
 
     #banner h2 {
@@ -506,13 +516,8 @@ a{
     }
 
 
-    #footer {
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
     #footer h3 {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 700;
     }
 
@@ -526,7 +531,7 @@ a{
     }
 
     #footer .links a i{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     #webinar-topic {
@@ -613,6 +618,10 @@ a{
 
     #footer {
         padding: 0 10px;
+    }
+
+    #footer h3{
+        text-align: center;
     }
 
     #webinar-topic {
